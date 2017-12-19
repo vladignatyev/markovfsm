@@ -27,8 +27,7 @@ Let's start with the simplest Markov process - flipping of perfect coin.
 Let '0' state correspond to 'tails' and '1' state to 'heads' correspondingly.
 
 We define a random function (`coin()`), that being evaluated returns new state of the process.
-Then we create a `Chain` object and do big enough count of experiments.
-
+Then we create a `Chain` object and do big enough count of experiments.::
   from random import random
   from graphviz import Digraph
 
@@ -64,8 +63,7 @@ Rigged dice
 -----------
 Another illustrative example is the process of rolling rigged dice.
 We use beta distribution to emulate non-perfect dice.
-The remaining part of the code almost the same.
-
+The remaining part of the code almost the same.::
   #!coding:utf-8
 
   from random import betavariate
@@ -100,15 +98,13 @@ The remaining part of the code almost the same.
   transitions_to_graph(g, chain.transition_matrix(), state_mapping)
   g.render('./graph')
 
-
 Probabilistic finite-state machine
 ----------------------------------
 Finite-state machine (FSM, or state machine) is a model of computation, that can be
 in exactly one of finite number of states. Probabilistic automaton is a FSM
 where transitions between states are probabilistic. Unlike normal FSM, that
 required only a graph of possible transitions between states, probabilistic
-automaton adds probability of every transition.
-
+automaton adds probability of every transition.::
   from random import random
 
   # build Markov chain with 2 states, init with random state
@@ -141,7 +137,6 @@ automaton adds probability of every transition.
   fsm.next()  # will change the state of automaton randomly in a such way that
               # the statistics of such transition will be equal to Markov process
               # statistics
-
 
 API
 ---
