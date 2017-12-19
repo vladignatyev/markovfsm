@@ -1,5 +1,5 @@
-Markov Chain and Finite-State Stochastic Machine
-================================================
+Markov Chain and Finite-State Machine (Probabilistic Automaton)
+===============================================================
 
 This package implements functionality for analyzing stochastic (or random)
 finite state (Markov) processes.
@@ -10,7 +10,7 @@ Also the package provides non-deterministic FSM (finite-state machine)
 functionality for evaluating Markov chains. You can easily build a probabilistic
 automaton from the Markov chain.
 
-One more feature is an integration with amazing `Graphviz<http://www.graphviz.org/>`_ tool.
+One more feature is an integration with amazing `Graphviz <http://www.graphviz.org/>`_ tool.
 ``markov`` plots a state transitions graph of Markov model for you.
 
 Installation
@@ -27,7 +27,7 @@ Let's start with the simplest Markov process - flipping of perfect coin.
 Let '0' state correspond to 'tails' and '1' state to 'heads' correspondingly.
 
 We define a random function (`coin()`), that being evaluated returns new state of the process.
-Then we create a `Chain` object and do big enough count of experiments.::
+Then we create a `Chain` object and do big enough count of experiments::
   from random import random
   from graphviz import Digraph
 
@@ -149,7 +149,7 @@ from the state ``i``.
 built from
 
 
-...more examples and documentation are coming. Feel free to learn from code!
+...more examples and documentation are coming. Feel free to learn from `code at GitHub <https://github.com/vladignatyev/markov/>`_!
 
 License
 -------
