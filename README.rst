@@ -10,7 +10,7 @@ Also the package provides non-deterministic FSM (finite-state machine)
 functionality for evaluating Markov chains. You can easily build a probabilistic
 automaton from the Markov chain.
 
-One more feature is an integration with amazing `Graphviz<http://www.graphviz.org/>`_ tool.
+One more feature is an integration with amazing `Graphviz <http://www.graphviz.org/>`_ tool.
 ``markovfsm`` plots a state transitions graph of Markov model for you.
 
 Installation
