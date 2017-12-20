@@ -15,6 +15,8 @@ One more feature is an integration with amazing `Graphviz<http://www.graphviz.or
 
 Installation
 ============
+As usual, ``pip install markovfsm``
+
 No special prerequisites required, expect the Graphviz, if you want to use plotting features.
 In such case, you have to install Graphviz and ``graphviz`` PyPI package.
 
