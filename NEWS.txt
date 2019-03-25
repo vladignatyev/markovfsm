@@ -1,6 +1,15 @@
 News
 ====
 
+0.2
+---
+
+*Release date: 25-Mar-2019*
+
+* Updated usage information and added illustrations
+* Better documentation
+
+
 0.1
 ---
 
