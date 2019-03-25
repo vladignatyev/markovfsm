@@ -56,6 +56,9 @@ g.render('./graph')       # this will output ``graph.svg`` (SVG graphics)
                           # and ``graph`` (DOT language) files
 ```
 
+Example output:
+![Coin-flip: state diagram of Markov chain](https://raw.githubusercontent.com/vladignatyev/markovfsm/master/coin.svg?sanitize=true)
+
 ## Rigged dice
 Another illustrative example is the process of rolling a rigged dice.
 We use beta distribution to emulate non-perfect dice.
@@ -98,6 +101,10 @@ g = Digraph(format='svg', engine='dot',
 transitions_to_graph(g, chain.transition_matrix(), state_mapping)
 g.render('./graph')
 ```
+
+Example output:
+![Rigged dice: state diagram of Markov chain](https://raw.githubusercontent.com/vladignatyev/markovfsm/master/rigged-dice.svg?sanitize=true)
+
 
 # Probabilistic finite-state machine
 Finite-state machine (FSM, or state machine) is a model of computation.
