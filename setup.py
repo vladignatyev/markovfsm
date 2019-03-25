@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 import sys, os
 
 here = os.path.abspath(os.path.dirname(__file__))
-README = open(os.path.join(here, 'README.rst')).read()
+README = open(os.path.join(here, 'README.md')).read()
 NEWS = open(os.path.join(here, 'NEWS.txt')).read()
 
 
@@ -35,7 +35,7 @@ setup(name='markovfsm',
     keywords='markov chain random process probability stochastic automata finite-state machine fsm',
     author='Vladimir Ignatev',
     author_email='ya.na.pochte@gmail.com',
-    url='https://github.com/vladignatyev/markov',
+    url='https://github.com/vladignatyev/markovfsm',
     license='MIT',
     packages=find_packages('src'),
     package_dir = {'': 'src'},include_package_data=True,
